@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TivraPay - Top Earning App & Digital Payment Platform</title>
+    <meta name="description" content="Join Telegram and Earn money. TivraPay provides the best earning opportunities, secure payment solutions, and is better than sixpay and ddwallet.">
+    <meta name="keywords" content="Tivrapay support, earning app, Tivrapay, new earning app, buy sell earning app, sixpay, ddwallet">
+    <meta name="author" content="TivraPay Team">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="TivraPay - Top Earning App & Digital Payment Platform">
+    <meta property="og:description" content="Join Telegram and Earn money with TivraPay">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tivrapay.com">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TivraPay",
+        "description": "Top Earning App & Digital Payment Platform",
+        "url": "https://www.tivrapay.com"
+    }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">TivraPay</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to TivraPay - Top Earning App & Digital Payment Platform</h1>
+            <p>Join Telegram and Earn money. TivraPay provides the best earning opportunities, secure payment solutions, and is better than sixpay and ddwallet.</p>
+            <div class="hero-buttons">
+                <a href="https://t.me/" target="_blank" class="btn btn-telegram">
+                    <span>📱</span> Join Telegram
+                </a>
+                <a href="https://your-register-url.com" class="btn btn-secondary">Register</a>
+                <a href="https://youtube.com/@" target="_blank" class="btn btn-youtube">
+                    <span>📺</span> Subscribe YouTube
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blogs">
+        <div class="blog-container">
+            <div class="blog-header">
+                <h2 class="section-title" style="margin: 0; flex: 1;">Latest Blog Posts</h2>
+                <button class="btn btn-primary" onclick="openNewBlogModal()">✍️ Write New Blog</button>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <div class="no-content">
+                    <p>No blog posts yet. <button onclick="openNewBlogModal()">Write the first one!</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Modal -->
+    <div id="newBlogModal" class="modal">
+        <div class="modal-content">
+            <h2>Write New Blog Post</h2>
+            <form onsubmit="event.preventDefault(); createNewBlog();">
+                <div class="form-group">
+                    <label for="blogTitle">Blog Title</label>
+                    <input type="text" id="blogTitle" placeholder="Enter blog title" required>
+                </div>
+                <div class="form-group">
+                    <label for="blogDescription">Blog Description</label>
+                    <textarea id="blogDescription" placeholder="Enter blog description" rows="5" required></textarea>
+                </div>
+                <div class="modal-buttons">
+                    <button type="submit" class="btn-submit">Publish Blog</button>
+                    <button type="button" class="btn-cancel" onclick="closeNewBlogModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About TivraPay</h4>
+                    <p>TivraPay is a modern, secure digital payment platform that helps users earn money and manage their finances efficiently.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TivraPay. All rights reserved.</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #7a8295;">
+                    <strong>Keywords:</strong> Tivrapay support, earning app, Tivrapay, new earning app, buy sell earning app, sixpay, ddwallet
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
